@@ -1,0 +1,25 @@
+/* pages/billing/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.number, .over{
+  padding:30rpx 0;
+  flex: 2;
+  width: 100%;
+  text-align: center;
+}
+.time{
+  flex: 6;
+  width: 100%;
+  text-align: center;
+}
+.time-main{
+  font-size:100rpx;
+}
+.over button{
+  width: 90%;
+  margin-top: 30rpx;
+}

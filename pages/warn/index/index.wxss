@@ -1,0 +1,70 @@
+/* pages/warn/index/index.wxss */
+.title{
+  background-color: #f2f2f2;
+  padding: 30rpx 0 30rpx 50rpx;
+  font-size: 28rpx;
+  text-align: center;
+  color: #000;
+}
+.checkbox-group{
+  padding: 50rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrapper{
+  width: 45%;
+  line-height: 80rpx;
+  border: 1px solid #b9dd08;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 36rpx;
+}
+.wrapper:first-child, .wrapper:nth-of-type(2){
+  margin-top: 0;
+}
+.action .action-photos{
+  padding: 40rpx 0 40rpx 50rpx; 
+}
+.action .action-photos image{
+  position: relative;
+  height: 100rpx;
+  width: 100rpx;
+  display: inline-block;
+  overflow: visible;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+}
+.action .action-photos image icon{
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+}
+.action .action-photos text{
+  height: 100rpx;
+  width:100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  display: inline-block;
+  font-size: 22rpx;
+  border: 1px dashed #ccc;
+  color: #ccc;
+  vertical-align: 43rpx;
+  margin-left: 30rpx;
+}
+.input{
+  padding: 40rpx 0 40rpx 50rpx;
+  border-top: 30rpx solid #f2f2f2;
+}
+.input input{
+  padding-bottom: 40rpx;
+  padding-top: 40rpx;
+  width: 90%;
+}
+.input input:first-child{
+  border-bottom: 1rpx dashed #ccc;
+}
+.submit{
+  padding: 40rpx;
+  background-color: #f2f2f2;
+}
